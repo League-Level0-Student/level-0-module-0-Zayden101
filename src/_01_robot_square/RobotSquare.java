@@ -10,13 +10,15 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class RobotSquare {
     public static void main(String[] args) throws Exception {
- 
+Robot a=new Robot();
     	// 1. Make a new Robot
+a.setRandomPenColor();
+a.miniaturize();
+    a.setSpeed(999);
+a.setPenWidth(999);
+    // 3. Put the robot's pen down
 
-
-        // 3. Put the robot's pen down
-
-
+a.penDown();
         // 6. Make the robot move as fast as possible
 
 
@@ -24,9 +26,145 @@ public class RobotSquare {
 
 
         //         2. Move your robot 200 pixels
-
-
-        //         4. Turn the robot 90 degrees to the right (90 degrees)
+a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);
+a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);
+a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);
+a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);
+a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);
+a.move(400);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);
+a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);
+a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);
+a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);
+a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);
+a.turn(180);
+a.move(600);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);
+a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);
+a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);
+a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);
+a.move(200);
+a.turn(90);
+a.move(200);
+a.turn(90);a.move(200);
+a.turn(90);a.move(200);
+a.turn(45);
+a.turn(180);
+a.move(200);
+//        4. Turn the robot 90 degrees to the right (90 degrees)
 
 
     }
